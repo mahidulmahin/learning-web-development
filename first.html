@@ -6,18 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
-            padding: 100px;
+        .flex-container {
+            background: gainsboro;
+            height: 400px;
+            width: 400px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: start;
+            gap: 10px;
+            
         }
-        span{
-            background-color: blueviolet;
+        button {
+            width: 100%;
+            background-color: brown;
             padding: 10px;
-            border: 10px solid black;
-            margin: 10px;
         }
     </style>
 </head>
 <body>
-    <SPan>Mahin</SPan>
+    <div class="flex-container">
+        <button>button 1</button>
+        <button>button 2</button>
+        <button>button 3</button>
+        <button>button 4</button>
+    </div>
 </body>
 </html>
